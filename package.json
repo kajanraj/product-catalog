@@ -1,0 +1,19 @@
+{
+  "name": "product-catalog-api",
+  "version": "1.0.0",
+  "description": "CRUD REST API for Product Catalog using MERN stack",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
